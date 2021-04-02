@@ -18,7 +18,7 @@ namespace App05MonoGame
     /// <authors>
     /// Derek Peacock & Andrei Cruceru
     /// </authors>
-    public class App05Game : Game
+    public class RPG_Game : Game
     {
         #region Constants
 
@@ -54,7 +54,7 @@ namespace App05MonoGame
 
         #endregion
 
-        public App05Game()
+        public RPG_Game()
         {
             graphicsManager = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
@@ -343,7 +343,7 @@ namespace App05MonoGame
         {
             int margin = 20;
 
-            string names = "Derek & Andrei";
+            string names = "Kian Rozblat";
             string app = "App05: MonogGame";
             string module = "BNU CO453-2020";
 

@@ -7,7 +7,7 @@ namespace App05MonoGame
         [STAThread]
         static void Main()
         {
-            using (var game = new App05Game())
+            using (var game = new RPG_Game())
                 game.Run();
         }
     }
